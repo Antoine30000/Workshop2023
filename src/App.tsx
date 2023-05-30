@@ -6,11 +6,10 @@ import { ProductPage } from './components/Pages/ProductInformation'
 function App() {
 
   return (
-    // <Routes>
-    //   <Route  path="/" Component={Homepage} />  
-    //   <Route  path="/" Component={ProductPage} />  
-    // </Routes>
-    <Homepage></Homepage>
+    <Routes>
+    <Route path="/" Component={Homepage} />
+    <Route path="/product/:productId" Component={ProductPage} />
+  </Routes>
   )
 }
 
