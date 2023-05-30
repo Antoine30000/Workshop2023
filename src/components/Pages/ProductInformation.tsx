@@ -2,7 +2,7 @@ import { Header } from "../Header";
 
 export const ProductPage = () => {
 
-  const handleClick = () => {}
+  // const handleClick = () => {}
 
 
     return ( <div>
@@ -10,7 +10,7 @@ export const ProductPage = () => {
   
         <h1>Nom du produit</h1>
         <p>Description du produit</p>
-        <button onClick={handleClick}>Echanger</button>
+        <button>Echanger</button>
       </div>
     );
 }
