@@ -5,7 +5,7 @@ export const ProductList = () => {
         <div>
         {mockData.map((product) => (
           <div key={product.id}>
-            <img src={product.image} alt={product.name} />
+            {/* <img src={product.image} alt={product.name} /> */}
             <h3>{product.name}</h3>
             <p>{product.description}</p>
           </div>
